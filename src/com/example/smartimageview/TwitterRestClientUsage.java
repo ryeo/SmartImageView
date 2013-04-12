@@ -13,7 +13,7 @@ class TwitterRestClientUsage {
     	
     	Log.d(TweetTAG, "Twitter Time Line");
     	
-        TwitterRestClient.get("statuses/public_timeline.json", null, new JsonHttpResponseHandler() {
+        TwitterRestClient.get("statuses/user_timeline.json?include_entities=true&include_rts=true&screen_name=twitterapi&count=2", null, new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(JSONArray timeline) {
                 try {
