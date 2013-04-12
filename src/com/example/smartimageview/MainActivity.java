@@ -43,6 +43,7 @@ public class MainActivity extends Activity {
 	    
 	    TwitterRestClientUsage tweettime = new TwitterRestClientUsage();
 	    tweettime.getPublicTimeline();
+	    
 	}
 
 	@Override
