@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
 		Log.d(TAG, "Show tag writer");
 		
 		SmartImageView profileImage = (SmartImageView) findViewById(R.id.profileImage); 
-	    profileImage.setImageUrl("http://2.bp.blogspot.com/-vFHPrffYx18/TWG2v0k9uZI/AAAAAAAAA8A/NGhnFtu-0Uw/s1600/mallard_duck.jpg");
+	    profileImage.setImageUrl("http://img.thesun.co.uk/multimedia/archive/01654/Panda_1_1654644a.jpg");
 	    
 	    AsyncHttpClient client = new AsyncHttpClient();
 	    client.get("http://www.google.com", new AsyncHttpResponseHandler() {
