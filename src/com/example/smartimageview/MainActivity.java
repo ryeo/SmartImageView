@@ -167,6 +167,7 @@ public class MainActivity extends Activity {
 		}, new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION));
 		
 		Log.d(TAG, "Show tag writer");
+		Log.d(TAG, "TEST");
 		
 		SmartImageView profileImage = (SmartImageView) findViewById(R.id.profileImage); 
 	    profileImage.setImageUrl("http://img.thesun.co.uk/multimedia/archive/01654/Panda_1_1654644a.jpg");
